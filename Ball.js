@@ -5,8 +5,8 @@ class Ball
         var options = 
         {
             isStatic : false,
-            restitution : 2,
-            frictionAir : 0.1
+            restitution : 0.5,
+            frictionAir : 0.010
         }
 
         this.body = Bodies.circle(x, y, radius, options);
