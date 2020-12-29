@@ -6,7 +6,7 @@ class Ball
         {
             isStatic : false,
             restitution : 2,
-            frictionAir : 0.5
+            frictionAir : 0.1
         }
 
         this.body = Bodies.circle(x, y, radius, options);
